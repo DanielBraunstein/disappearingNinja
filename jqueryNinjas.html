@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>jquery</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta charset="UTF-8">
+	<script type="text/javascript" src='http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js'></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$("#button1").click(function(){
+				$("#image1").hide();
+			});
+			$("#button2").click(function(){
+				$("#image2").hide();
+			});
+			$("#button3").click(function(){
+				$("#image3").hide();
+			});         	
+			$("#button4").click(function(){
+				$("#image4").hide();
+			});
+			$("#button5").click(function(){
+				$("#image5").hide();
+			});
+			$("#button6").click(function(){
+				$("#image6").hide();
+			});
+			$("#button7").click(function(){
+				$("#image7").hide();
+			});
+			$("#button8").click(function(){
+				$("#image8").hide();
+			});
+			$("#reset").click(function(){
+				$("#image1").show();
+				$("#image2").show();
+				$("#image3").show();
+				$("#image4").show();
+				$("#image5").show();
+				$("#image6").show();
+				$("#image7").show();
+				$("#image8").show();
+			});
+		})
+	</script>
+</head>
+<body>
+	<button id="button1" class="imageButton">
+		<img id="image1" src="buttonImage.jpg"  class="image">
+	</button>
+	<button id="button2" class="imageButton">
+		<img id="image2" src="buttonImage.jpg"  class="image">
+	</button>
+	<button id="button3" class="imageButton">
+		<img id="image3" src="buttonImage.jpg"  class="image">
+	</button>
+	<button id="button4" class="imageButton">
+		<img id="image4" src="buttonImage.jpg"  class="image">
+	</button>
+	<button id="button5" class="imageButton">
+		<img id="image5" src="buttonImage.jpg"  class="image">
+	</button>
+	<button id="button6" class="imageButton">
+		<img id="image6" src="buttonImage.jpg"  class="image">
+	</button>
+	<button id="button7" class="imageButton">
+		<img id="image7" src="buttonImage.jpg"  class="image">
+	</button>
+	<button id="button8" class="imageButton">
+		<img id="image8" src="buttonImage.jpg"  class="image">
+	</button>
+	<button id="reset" class="resetter">
+		click here to reset
+	</button>
